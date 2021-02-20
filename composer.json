@@ -1,0 +1,29 @@
+{
+    "name": "ramprasadm1986/yii2-dynamicform",
+    "description": "Yii2 Dynamic Form Widget",
+    "keywords": ["yii2", "extension", "widget", "yii2-dynamicform", "copy DOM element", "yii2 dynamic form"],
+    "type": "yii2-extension",
+    "license": "Apache-2.0",
+    "minimum-stability":"stable",
+    "support": {
+		"issues": "https://github.com/ramprasadm1986/yii2-dynamicform/issues",
+		"wiki": "https://github.com/ramprasadm1986/yii2-dynamicform/wiki",
+		"source": "https://github.com/ramprasadm1986/yii2-dynamicform"
+	},
+    "authors": [
+        {
+            "name": "Ramprasad",
+            "email": "ramprasad@krititech.in",
+            "homepage": "https://github.com/ramprasadm1986",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+		"yiisoft/yii2": "*",
+		"symfony/dom-crawler": "*",
+		"symfony/css-selector": "*"
+	},
+    "autoload": {
+		"psr-4": { "ramprasadm1986\\dynamicform\\": "" }
+	}
+}
