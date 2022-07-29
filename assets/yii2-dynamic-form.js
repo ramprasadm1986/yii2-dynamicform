@@ -400,6 +400,7 @@
             });
         }
         
+        // "kartik-v/yii2-widget-select2"
         var $hasSelect2 = $(widgetOptionsRoot.widgetItem).find('[data-krajee-select2]');
         if ($hasSelect2.length > 0) {
             $hasSelect2.each(function() {
@@ -443,6 +444,19 @@
         if ($hasSwitchinput.length > 0) {
             $hasSwitchinput.each(function() {
                 $(this).bootstrapSwitch(eval($(this).attr('data-krajee-bootstrapswitch')));
+            });
+        }
+        
+        // "kartik-v/yii2-numbercontol"
+        var $hasNumberControl = $(widgetOptionsRoot.widgetItem).find('[data-krajee-numbercontrol]');
+        if ($hasNumberControl.length > 0) {
+                $hasNumberControl.each(function() {
+                var configNumberControl = eval($(this).attr('data-krajee-numbercontrol'));
+                configNumberControl.displayId = $(this).parent().prev().attr('id');
+                if ($(this).data('numberControl')) {
+                    $(this).numberControl('destroy');
+                }
+                $(this).numberControl(configNumberControl);
             });
         }
 

@@ -4,7 +4,7 @@
     "keywords": ["yii2", "extension", "widget", "yii2-dynamicform", "copy DOM element", "yii2 dynamic form"],
     "type": "yii2-extension",
     "license": "Apache-2.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "minimum-stability":"stable",
     "support": {
 		"issues": "https://github.com/ramprasadm1986/yii2-dynamicform/issues",
